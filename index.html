@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="feedback-container" id="feedbackForm">
+        <h1>How satisfied are you with our customer support performance?</h1>
+        <div class="options">
+            <div class="option" data-value="Very Unhappy">Very Unhappy</div>
+            <div class="option" data-value="Unhappy">Unhappy</div>
+            <div class="option" data-value="Neutral">Neutral</div>
+            <div class="option" data-value="Satisfied">Satisfied</div>
+            <div class="option" data-value="Very Satisfied">Very Satisfied</div>
+        </div>
+        <button id="submitBtn">Send Review</button>
+    </div>
+
+    <div class="feedback-container thank-you" id="thankYouMessage">
+        <h2>Thank You!</h2>
+        <div class="feedback-result">Feedback: <span id="selectedFeedback"></span></div>
+        <p>We'll use your feedback to improve our<br>customer support</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
